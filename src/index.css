@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.calcurako {
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(86, 210, 214, 0.8);
+  width: 315px;
+  height: 520px;
+  border-radius: 15px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.calcurako-item {
+  display: inline-block;
+}
+
+.calcurako-item button {
+  display: block;
+  width: 72px;
+  height: 42px;
+  font-size: 12px;
+}
+
+.calcurako-item input {
+  display: block;
+  width: 64px;
+  height: 36px;
+  font-size: 12px;
+  text-align: center;
 }
